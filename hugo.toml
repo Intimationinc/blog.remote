@@ -1,0 +1,38 @@
+baseURL = "https://blogs.intimationinc.com"
+title = "Intimationinc Blog"
+author = "Intimationinc Authors"
+copyright = "Intimationinc"
+paginate = 20
+theme = "tailwind"
+languageCode = "en"
+
+[params]
+  # dir name of your blog content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "posts"
+  toc = false
+  showReadingTime = false
+  [params.header]
+    logo = "logo.jpeg"
+
+  [params.footer]
+    since = 2024
+    poweredby = false
+  [params.widgets]
+    categories = true
+    tags = true
+    recentposts = true
+[menu]
+  [[menu.main]]
+    identifier = "Post"
+    name = "Posts"
+    pageRef = "/posts"
+    weight = 0
+
+  [[menu.main]]
+    identifier = "extern"
+    name = "Intimationinc"
+    url = "https://remote.intimationinc.com"
+    weight = 10
+    [menu.main.params]
+      rel = 'external'
