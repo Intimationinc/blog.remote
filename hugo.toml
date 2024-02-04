@@ -46,6 +46,11 @@ languageCode = "en"
       title = 'Facebook'
       icon = 'brand-facebook'
       link = 'https://www.facebook.com/profile.php?id=61556296823994'
+    [[params.social_media.items]]
+      enabled = true
+      title = 'Linkedin'
+      icon = 'brand-linkedin'
+      link = 'https://www.linkedin.com/company/intimationinc'
 [menu]
   [[menu.main]]
     identifier = "Post"
