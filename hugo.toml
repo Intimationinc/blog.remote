@@ -22,6 +22,30 @@ languageCode = "en"
     categories = true
     tags = true
     recentposts = true
+  [params.giscus]
+    # Enable comments
+    enabled = true
+    # Comment provider:
+    provider = "giscus"
+
+    # Which page types are commentable?
+    commentable = {page = true, post = true, docs = false, project = false, publication = true, talk = false}
+
+    # Configuration of giscus
+    repo = "intimationinc/blog.remote" # Repo where the comments will live
+    repo_id = "R_kgDOLJTy-w" # Repo where the comments will live
+    category = "General" # Repo where the comments will live
+    category_id = "DIC_kwDOLJTy-84Cc7Qj" # Repo where the comments will live
+    mapping = "pathname" # How Utterances will match comment to page
+    label = "comment" # Label applied to issue by utteranc.es bot
+    reactionsEnabled = 1
+    emitMetadata = 1
+  [params.social_media]
+    [[params.social_media.items]]
+      enabled = true
+      title = 'Facebook'
+      icon = 'brand-facebook'
+      link = 'https://www.facebook.com/profile.php?id=61556296823994'
 [menu]
   [[menu.main]]
     identifier = "Post"
