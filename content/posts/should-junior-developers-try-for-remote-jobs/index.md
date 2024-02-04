@@ -12,7 +12,7 @@ categories = [
 ]
 series = ["Remote Work"]
 +++
-![header](./images/remote.jpeg "Should Junior Developer Try Remote Job")
+![header](./images/image.jpeg "Should Junior Developer Try Remote Job")
 
 জুনিয়র ডেভেলপারদের রিমোট জব ট্রাই করা উচিত?
 
