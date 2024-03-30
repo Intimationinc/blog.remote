@@ -15,7 +15,7 @@ tags:
 archives: "2020/05"
 ---
 
-[Part 4](/posts/go-crash-course-iv/)
+[Part 4](/post/go-crash-course-iv/)
 
 ## Constants
 
@@ -142,4 +142,4 @@ var c int = 10 // this doesnt work now
 
 This is Part 5 of this Go crash course series.
 
-[Part 6](/posts/go-crash-course-vi/)
+[Part 6](/post/go-crash-course-vi/)

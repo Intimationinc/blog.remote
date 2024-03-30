@@ -124,4 +124,4 @@ Defer is particularly useful when we want to take some action no matter what hap
 
 This is Part 7 of this Go crash course series.
 
-[Part 8](/posts/go-crash-course-viii/)
+[Part 8](/post/go-crash-course-viii/)

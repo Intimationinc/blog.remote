@@ -15,7 +15,7 @@ tags:
 archives: "2020/05"
 ---
 
-[Part 5](/posts/go-crash-course-v/)
+[Part 5](/post/go-crash-course-v/)
 
 ## Blocks
 
@@ -69,4 +69,4 @@ Just block level shadowing is uncommon. There are rare use cases for this. But I
 
 This is Part 6 of this Go crash course series.
 
-[Part 7](/posts/go-crash-course-vii/)
+[Part 7](/post/go-crash-course-vii/)

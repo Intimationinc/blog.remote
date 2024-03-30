@@ -15,7 +15,7 @@ tags:
 archives: "2020/05"
 ---
 
-[Part 8](/posts/go-crash-course-viii/)
+[Part 8](/post/go-crash-course-viii/)
 
 ## Struct
 
@@ -153,4 +153,4 @@ The main difference between this type of composition and inheritance is that inh
 
 This is Part 9 of this Go crash course series.
 
-[Part 10](/posts/go-crash-course-x/)
+[Part 10](/post/go-crash-course-x/)

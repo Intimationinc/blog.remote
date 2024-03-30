@@ -15,7 +15,7 @@ tags:
 archives: "2020/05"
 ---
 
-[Part III](/posts/go-crash-course-iii/)
+[Part III](/post/go-crash-course-iii/)
 
 The code for this part is in the `types` folder under [this github repo](https://github.com/moficodes/go-crash-course). 
 
@@ -225,4 +225,4 @@ Type inference also happens for numeric constants when passing to a function if 
 
 This is Part 4 of this Go crash course series.
 
-[Part 5](/posts/go-crash-course-v/)
+[Part 5](/post/go-crash-course-v/)

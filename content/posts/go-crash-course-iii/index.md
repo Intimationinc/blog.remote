@@ -15,7 +15,7 @@ tags:
 archives: "2020/05"
 ---
 
-[Part 2](/posts/go-crash-course-ii/)
+[Part 2](/post/go-crash-course-ii/)
 
 ## Variables
 
@@ -177,4 +177,4 @@ Greet := func() string {
 
 This is Part 3 of this Go crash course series.
 
-[Part IV](/posts/go-crash-course-iv/)
+[Part IV](/post/go-crash-course-iv/)

@@ -24,7 +24,7 @@ series: ["Golang"]
 
 We structure our code in packages. We also import other packages from standard library and external sources. In the last application we had only one file `main.go`. But we could also have more than one file in our application. All the files in the same folder level are in the same package. All variables and functions in the package scope are shared. 
 
-> If you haven't already clone [this repository](https://dev.to/moficodes/go-crash-course-part-1-18h1#get-coding) from [Part 1](/posts/go-crash-course-i/)
+> If you haven't already clone [this repository](https://dev.to/moficodes/go-crash-course-part-1-18h1#get-coding) from [Part 1](/post/go-crash-course-i/)
 
 ```bash
 # from the root of the repository.

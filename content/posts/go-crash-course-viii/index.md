@@ -182,4 +182,4 @@ For example if we look at the source code for [net/http](https://golang.org/src/
 
 This is Part 8 of this Go crash course series.
 
-[Part 9](/posts/go-crash-course-ix/)
+[Part 9](/post/go-crash-course-ix/)
