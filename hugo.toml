@@ -1,8 +1,8 @@
-baseURL = "https://blogs.intimationinc.com/"
-title = "Intimationinc Blog"
-author = "Intimationinc Authors"
-copyright = "Intimationinc"
-paginate = 20
+baseURL = "https://blogs.moficodes.dev/"
+title = "moficodes"
+author = "Mofi Rahman"
+copyright = "moficodes"
+paginate = 10
 theme = "tailwind"
 languageCode = "en"
 
@@ -13,7 +13,7 @@ languageCode = "en"
   toc = false
   showReadingTime = false
   [params.header]
-    logo = "logo.jpeg"
+    logo = "logo.png"
 
   [params.footer]
     since = 2024
@@ -32,10 +32,10 @@ languageCode = "en"
     commentable = {page = true, post = true, docs = false, project = false, publication = true, talk = false}
 
     # Configuration of giscus
-    repo = "intimationinc/blog.remote" # Repo where the comments will live
-    repo_id = "R_kgDOLJTy-w" # Repo where the comments will live
+    repo = "moficodes/blogs" # Repo where the comments will live
+    repo_id = "MDEwOlJlcG9zaXRvcnkzNTMxOTk1MjU=" # Repo where the comments will live
     category = "General" # Repo where the comments will live
-    category_id = "DIC_kwDOLJTy-84Cc7Qj" # Repo where the comments will live
+    category_id = "DIC_kwDOFQ1lpc4CeWQ0" # Repo where the comments will live
     mapping = "pathname" # How Utterances will match comment to page
     label = "comment" # Label applied to issue by utteranc.es bot
     reactionsEnabled = 1
@@ -43,25 +43,28 @@ languageCode = "en"
   [params.social_media]
     [[params.social_media.items]]
       enabled = true
-      title = 'Facebook'
-      icon = 'brand-facebook'
-      link = 'https://www.facebook.com/profile.php?id=61556296823994'
+      title = 'Twitter'
+      icon = 'brand-twitter'
+      link = 'https://www.x.com/moficodes'
+    [[params.social_media.items]]
+      enabled = true
+      title = 'Youtube'
+      icon = 'brand-youtube'
+      link = 'https://youtube.com/@containerbytes'
     [[params.social_media.items]]
       enabled = true
       title = 'Linkedin'
       icon = 'brand-linkedin'
-      link = 'https://www.linkedin.com/company/intimationinc'
+      link = 'https://www.linkedin.com/in/moficodes'
 [menu]
   [[menu.main]]
     identifier = "Post"
     name = "Posts"
     pageRef = "/posts"
-    weight = 0
+    weight = 1
 
   [[menu.main]]
-    identifier = "extern"
-    name = "Intimationinc"
-    url = "https://remote.intimationinc.com"
+    identifier = "About"
+    name = "About"
+    pageRef = "/about"
     weight = 10
-    [menu.main.params]
-      rel = 'external'
